@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #F9FAFB;
+    margin: 0;
+}
+
+header {
+    background: #111827;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-text {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.logout-btn {
+    background: #EF4444;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.admin-container {
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.table-card {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.table-header {
+    padding: 20px;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.table-header h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.table-header p {
+    color: #6B7280;
+    font-size: 14px;
+    margin: 5px 0 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #F9FAFB;
+    padding: 12px 20px;
+    text-align: left;
+    font-size: 12px;
+    color: #6B7280;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 16px 20px;
+    border-bottom: 1px solid #F3F4F6;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.badge.type {
+    background: #E0E7FF;
+    color: #4338CA;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.map-link {
+    color: #D85D31;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.status-pill {
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.status-pill.pending {
+    background: #FEF3C7;
+    color: #92400E;
+}
+
+.status-pill.ongoing {
+    background: #DBEAFE;
+    color: #1E40AF;
+}
+
+.status-pill.completed {
+    background: #D1FAE5;
+    color: #065F46;
+}
+
+.update-form select {
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid #D1D5DB;
+    margin-right: 5px;
+}
+
+.update-form button {
+    background: #111827;
+    color: white;
+    border: none;
+    padding: 7px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
